@@ -26,6 +26,9 @@ namespace Method_hiding
         {
             BaseClass B = new DerivedClass();
             B.Print();
+
+            DerivedClass D = new DerivedClass();
+            D.Print();
             Console.ReadKey();
         }
     }
