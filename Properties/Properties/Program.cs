@@ -51,6 +51,8 @@ namespace Properties
                 return this._passMark;
             }
         }
+
+        //Using Auto - implemented properties
         public string Email { get; set; }
         public string City { get; set; }
     }
