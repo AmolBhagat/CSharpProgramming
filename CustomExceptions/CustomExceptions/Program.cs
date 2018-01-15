@@ -11,6 +11,7 @@ namespace CustomExceptions
     {
         static void Main(string[] args)
         {
+            
             try
             {
                 throw new UserAlreadyLoggedInException("User Already logged in - no duplicate session is allowed");
